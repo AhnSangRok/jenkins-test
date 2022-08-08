@@ -8,7 +8,7 @@ public class TestController {
 
     @GetMapping("/")
     public String hello(){
-        return "hello my friends";
+        return "hello my friends test verbose";
     }
 
 }
