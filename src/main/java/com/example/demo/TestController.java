@@ -8,7 +8,7 @@ public class TestController {
 
     @GetMapping("/")
     public String hello(){
-        return "서버 2 연결 테스트";
+        return "서버 2 연결 테스트2";
     }
 
 }
