@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping("/")
     public String hello(){
-        return "test123";
+        return "hi load 밸런서";
     }
 
 }
